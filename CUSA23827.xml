@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <TitleID>
+		<ID>CUSA23827</ID>
+    </TitleID>
+	<Metadata Title="Call of Duty Black Ops 6"
+              Name="Unlock all weapons, don't choose operators."
+              Author="Rickwrimes(zhm86)"
+              Note=""
+              PatchVer="1.0"
+              AppVer="01.58"
+              AppElf="eboot.bin">
+        <PatchList>
+			<Line Type="bytes" Address="0x00cbbe54" Value="be01000000909048bfefbda9f950a65c95"/>
+			<Line Type="bytes" Address="0x00cbbe71" Value="e86aaca4ff"/>
+			<Line Type="bytes" Address="0x00d0e4a6" Value="488d1543600300"/>
+        </PatchList>
+    </Metadata>
+</Patch>
